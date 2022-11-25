@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/russian-warship/static/css/main.d70e0c3a.css",
-    "main.js": "/russian-warship/static/js/main.b0a5741f.js",
+    "main.css": "/russian-warship/static/css/main.3f139b58.css",
+    "main.js": "/russian-warship/static/js/main.bc796d16.js",
     "static/media/gny.png": "/russian-warship/static/media/gny.07752b8caea0d1501143.png",
     "static/media/gny1.png": "/russian-warship/static/media/gny1.cd7ba4d11595062bf268.png",
     "index.html": "/russian-warship/index.html",
-    "main.d70e0c3a.css.map": "/russian-warship/static/css/main.d70e0c3a.css.map",
-    "main.b0a5741f.js.map": "/russian-warship/static/js/main.b0a5741f.js.map"
+    "main.3f139b58.css.map": "/russian-warship/static/css/main.3f139b58.css.map",
+    "main.bc796d16.js.map": "/russian-warship/static/js/main.bc796d16.js.map"
   },
   "entrypoints": [
-    "static/css/main.d70e0c3a.css",
-    "static/js/main.b0a5741f.js"
+    "static/css/main.3f139b58.css",
+    "static/js/main.bc796d16.js"
   ]
 }
