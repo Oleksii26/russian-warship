@@ -6,6 +6,7 @@ p {
 
 .heroes {
     overflow: hidden;
+    width: 375px;
 }
 
 .anim {
@@ -57,18 +58,21 @@ p {
 
 
 .td {
-    width: 120px;
+    width: 140px;
     text-align: center;
+    /* border-bottom: 1px solid black; */
 }
+
 
 .td:nth-child(-n + 12) {
     border-bottom: 1px solid black;
 }
 
-.td:nth-child(3n + 2) {
-    border-right: 1px solid grey;
-    border-left: 1px solid grey;
+.td:nth-child(2n + 1) {
+    border-right: 1px solid black;
 }
+
+
 
 h3 {
     font-size: large;
