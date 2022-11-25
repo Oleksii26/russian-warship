@@ -1,0 +1,170 @@
+h4,
+h3,
+p {
+    margin: 0;
+}
+
+.heroes {
+    overflow: hidden;
+}
+
+.anim {
+    background-color: black;
+    position: relative;
+    width: 950px;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    color: beige;
+    margin: 0;
+    height: 25px;
+    transform: translateX(0%);
+    animation: header 12s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes header {
+
+    0% {
+        transform: translateX(50%);
+
+    }
+
+    100% {
+        transform: translateX(-100%);
+
+    }
+
+}
+
+
+
+.container {
+    padding: 15px;
+    background-image: linear-gradient(45deg, rgba(255, 255, 0, 0.904) 0%, rgba(255, 255, 255, 0.89) 40%, rgba(0, 0, 255, 0.897)95%), url('https://drawing.biz.ua/wp-content/uploads/2022/05/Russian-warship-fuck-you-2-min.jpg');
+    position: relative;
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 0;
+    column-gap: 0;
+    justify-content: center;
+}
+
+
+.td {
+    width: 120px;
+    text-align: center;
+}
+
+.td:nth-child(-n + 12) {
+    border-bottom: 1px solid black;
+}
+
+.td:nth-child(3n + 2) {
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+h3 {
+    font-size: large;
+}
+
+.gsy {
+    font-size: small;
+}
+
+.span {
+    color: blue;
+    font-weight: 700;
+}
+
+.put {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    animation: put 4s linear;
+}
+
+
+@keyframes put {
+
+    0% {
+        transform: translateY(100%);
+
+    }
+
+    50% {
+        transform: translateY(100%);
+
+    }
+
+    50.1% {
+        transform: translateY(0%);
+
+    }
+
+    55% {
+        transform: translateY(10%);
+
+    }
+
+    60% {
+        transform: translateY(0%);
+
+    }
+
+    70% {
+        transform: translateY(10%);
+
+    }
+
+    75% {
+        transform: translateY(0%);
+
+    }
+
+    80% {
+        transform: translateY(10%);
+
+    }
+
+    95% {
+        transform: translateY(100%);
+
+    }
+
+    100% {
+        transform: translateY(100%);
+
+    }
+
+}
+
+.put1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    animation: put1 2s linear;
+}
+
+
+@keyframes put1 {
+
+    0% {
+        transform: translateY(100%);
+
+    }
+
+    100% {
+        transform: translateY(0);
+
+    }
+
+}
