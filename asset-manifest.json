@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/russian-warship/static/css/main.d70e0c3a.css",
+    "main.js": "/russian-warship/static/js/main.b0a5741f.js",
+    "static/media/gny.png": "/russian-warship/static/media/gny.07752b8caea0d1501143.png",
+    "static/media/gny1.png": "/russian-warship/static/media/gny1.cd7ba4d11595062bf268.png",
+    "index.html": "/russian-warship/index.html",
+    "main.d70e0c3a.css.map": "/russian-warship/static/css/main.d70e0c3a.css.map",
+    "main.b0a5741f.js.map": "/russian-warship/static/js/main.b0a5741f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d70e0c3a.css",
+    "static/js/main.b0a5741f.js"
+  ]
+}
