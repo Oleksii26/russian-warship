@@ -1,8 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import css from './App.module.css'
-import image from './img/gny.png'
-import image1 from './img/gny1.png'
 
 const getData = async () => {
   const { data } = await axios.get('https://russianwarship.rip/api/v1/statistics/latest')
@@ -17,15 +15,13 @@ const App = () => {
   }, [])
 
   const { increase = 0, stats = 0 } = state
-  console.log(state)
-  console.log('state')
-
+  
   return (<div className={css.heroes}>
     <div className={css.anim}>
-      <h4 className={css.header}>Russian warship, go fuck yourself! Русский военный корабль, пошел на ...й! Російський воєнний корабель, іди на ...й!</h4>
+      <h4 className={css.header}>Russian warship, go fuck yourself! Русский военный корабль, пошел на ...й! Російський воєнний корабель, іди на ...й! </h4>
     </div>
     <div className={css.container}>
-      <p className={css.gsy}>Генеральний штаб ЗС України інформує</p>
+      <p className={css.gsy}>Генеральний штаб ЗС України інформує:</p>
       <h3>Загальні бойові втрати російського окупанта</h3>
       <p><span className={css.span}>станом на {state.date}</span> ({state.day}-й день війни)</p>
       <div className={css.table}>
@@ -71,8 +67,6 @@ const App = () => {
         <div className={css.td}>
           <h4>{stats.cruise_missiles}(+{increase.cruise_missiles})</h4>
           <p>крилаті ракети</p></div>
-        <img className={css.put} width={165} height={185} src={image} alt='123' />
-        <img className={css.put1} width={150} src={image1} alt='123' />
       </div>
     </div>
   </div>
