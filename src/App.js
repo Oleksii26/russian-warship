@@ -28,74 +28,74 @@ const App = () => {
         <div className={css.td}>
           <img width={60} alt='123' src='https://russianwarship.rip/images/icons/icon-people.svg' />
           <div>
-            <h4>{stats.personnel_units}(+{increase.personnel_units})</h4>
+            <h4>{stats.personnel_units}({increase.personnel_units ? <span className={css.span1}>+{increase.personnel_units}</span>:increase.personnel_units})</h4>
             <p>особовий склад</p></div>
         </div>
         <div className={css.td}>
-          <img width={80} alt='123' src='https://russianwarship.rip/images/icons/icon-tank.svg' />
+          <img width={60} alt='123' src='https://russianwarship.rip/images/icons/icon-tank.svg' />
           <div>
-            <h4>{stats.tanks}(+{increase.tanks})</h4>
+            <h4>{stats.tanks}({increase.tanks ? <span className={css.span1}>+{increase.tanks}</span>:increase.tanks})</h4>
             <p>танки</p></div>
         </div>
         <div className={css.td}>
-          <img width={80} alt='123' src='https://russianwarship.rip/images/icons/icon-bbm.svg' />
+          <img width={60} alt='123' src='https://russianwarship.rip/images/icons/icon-bbm.svg' />
           <div>
-            <h4>{stats.armoured_fighting_vehicles}(+{increase.armoured_fighting_vehicles})</h4>
+            <h4>{stats.armoured_fighting_vehicles}({increase.armoured_fighting_vehicles ? <span className={css.span1}>+{increase.armoured_fighting_vehicles}</span>:increase.armoured_fighting_vehicles})</h4>
             <p>ББМ</p></div></div>
         <div className={css.td}>
           <img width={60} alt='123' src='https://russianwarship.rip/images/icons/icon-art.svg' />
           <div>
-          <h4>{stats.artillery_systems}(+{increase.artillery_systems})</h4>
+          <h4>{stats.artillery_systems}({increase.artillery_systems ? <span className={css.span1}>+{increase.artillery_systems}</span>:increase.artillery_systems})</h4>
           <p>артилерійські системи</p></div></div>
         <div className={css.td}>
-          <img width={80} alt='123' src='https://russianwarship.rip/images/icons/icon-rszv.svg' />
+          <img width={60} alt='123' src='https://russianwarship.rip/images/icons/icon-rszv.svg' />
           <div>
-          <h4>{stats.mlrs}(+{increase.mlrs})</h4>
+          <h4>{stats.mlrs}({increase.mlrs ? <span className={css.span1}>+{increase.mlrs}</span> : increase.mlrs})</h4>
           <p>РСЗВ</p></div></div>
         <div className={css.td}>
-          <img width={80} alt='123' src='https://russianwarship.rip/images/icons/icon-ppo.svg' />
+          <img width={60} alt='123' src='https://russianwarship.rip/images/icons/icon-ppo.svg' />
           <div>
-          <h4>{stats.aa_warfare_systems}(+{increase.aa_warfare_systems})</h4>
+          <h4>{stats.aa_warfare_systems}({increase.aa_warfare_systems ? <span className={css.span1}>+{increase.aa_warfare_systems}</span>:increase.aa_warfare_systems})</h4>
           <p>засоби ППО</p></div></div>
         <div className={css.td}>
-          <img width={80} alt='123' src='https://russianwarship.rip/images/icons/icon-plane.svg' />
+          <img width={60} alt='123' src='https://russianwarship.rip/images/icons/icon-plane.svg' />
           <div>
-          <h4>{stats.planes}(+{increase.planes})</h4>
-          <p>літаки</p></div></div>
+          <h4>{stats.planes}({increase.planes ? <span className={css.span1}>+{increase.planes}</span>:increase.planes})</h4>
+         <p>літаки</p></div></div>
         <div className={css.td}>
-          <img className={css.hel} width={70} alt='123' src='https://russianwarship.rip/images/icons/icon-helicopter.svg' />
+          <img className={css.hel} width={60} alt='123' src='https://russianwarship.rip/images/icons/icon-helicopter.svg' />
           <div>
-          <h4>{stats.helicopters}(+{increase.helicopters})</h4>
+          <h4>{stats.helicopters}({increase.helicopters ? <span className={css.span1}>+{increase.helicopters}</span>:increase.helicopters})</h4>
           <p>гелікоптери</p></div></div>
         <div className={css.td}>
           <img width={60} alt='123' src='https://russianwarship.rip/images/icons/icon-auto.svg' />
           <div>
-          <h4>{stats.vehicles_fuel_tanks}(+{increase.vehicles_fuel_tanks})</h4>
-          <p>автомобільна техніка, цистерни</p></div></div>
+          <h4>{stats.vehicles_fuel_tanks}({increase.vehicles_fuel_tanks ? <span className={css.span1}>+{increase.vehicles_fuel_tanks}</span>:increase.vehicles_fuel_tanks})</h4>
+          <p>автотехніка, цистерни</p></div></div>
         <div className={css.td}>
-          <img width={80} alt='123' src='https://russianwarship.rip/images/icons/icon-ship.svg' />
+          <img width={60} alt='123' src='https://russianwarship.rip/images/icons/icon-ship.svg' />
           <div>
-          <h4>{stats.warships_cutters}(+{increase.warships_cutters})</h4>
+          <h4>{stats.warships_cutters}({increase.warships_cutters ? <span className={css.span1}>+{increase.warships_cutters}</span>:increase.warships_cutters})</h4>
           <p>кораблі</p></div></div>
         <div className={css.td}>
-          <img width={80} alt='123' src='https://russianwarship.rip/images/icons/icon-bpla.svg' />
+          <img width={60} alt='123' src='https://russianwarship.rip/images/icons/icon-bpla.svg' />
           <div>
-          <h4>{stats.uav_systems}(+{increase.uav_systems})</h4>
+          <h4>{stats.uav_systems}({increase.uav_systems ? <span className={css.span1}>+{increase.uav_systems}</span>:increase.uav_systems})</h4>
           <p>БПЛА</p></div></div>
         <div className={css.td}>
-          <img width={70} alt='123' src='https://russianwarship.rip/images/icons/icon-special.svg' />
+          <img width={60} alt='123' src='https://russianwarship.rip/images/icons/icon-special.svg' />
           <div>
-          <h4>{stats.special_military_equip}(+{increase.special_military_equip})</h4>
+          <h4>{stats.special_military_equip}({increase.special_military_equip ? <span className={css.span1}>+{increase.special_military_equip}</span>:increase.special_military_equip})</h4>
           <p>спец.техніка</p></div></div>
         <div className={css.td}>
-          <img width={80} alt='123' src='https://russianwarship.rip/images/icons/icon-trk.svg' />
+          <img width={60} alt='123' src='https://russianwarship.rip/images/icons/icon-trk.svg' />
           <div>
-          <h4>{stats.atgm_srbm_systems}(+{increase.atgm_srbm_systems})</h4>
+          <h4>{stats.atgm_srbm_systems}({increase.atgm_srbm_systems ? <span className={css.span1}>+{increase.atgm_srbm_systems}</span>:increase.atgm_srbm_systems})</h4>
           <p>установки ОТРК/ТРК</p></div></div>
         <div className={css.td}>
-          <img width={80} alt='123' src='https://russianwarship.rip/images/icons/icon-rocket.svg' />
+          <img width={60} alt='123' src='https://russianwarship.rip/images/icons/icon-rocket.svg' />
           <div>
-          <h4>{stats.cruise_missiles}(+{increase.cruise_missiles})</h4>
+          <h4>{stats.cruise_missiles}({increase.cruise_missiles ? <span className={css.span1}>+{increase.cruise_missiles}</span> : increase.cruise_missiles})</h4>
           <p>крилаті ракети</p></div></div>
       </div>
     </div>
