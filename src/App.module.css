@@ -49,11 +49,10 @@ body {
 .container {
     padding: 15px;
     background-image: linear-gradient(45deg, rgba(255, 255, 0, 0.904) 0%, rgba(255, 255, 255, 0.89) 40%, rgba(0, 0, 255, 0.897)95%), url('https://drawing.biz.ua/wp-content/uploads/2022/05/Russian-warship-fuck-you-2-min.jpg');
-    background-size: contain;
     background-repeat: no-repeat;
-    background-position: right, bottom;
+    background-position: left, bottom, right, top;
     position: relative;
-    height: 610px;
+    height: 680px;
 }
 
 .table {
